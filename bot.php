@@ -34,7 +34,7 @@ if (!is_null($events['events'])) {
 		}
 	}
 }
-sleep(5);
+sleep(20);
 $Topic = "CH1" ;
 $text = "Off";
 getMqttfromlineMsg($Topic,$text);
