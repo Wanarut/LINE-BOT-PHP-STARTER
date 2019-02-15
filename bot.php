@@ -34,8 +34,8 @@ if (!is_null($events['events'])) {
 		}
 	}
 }
-$Topic = "CH1" ;
-$text = "Test";
-getMqttfromlineMsg($Topic,$text);
+//$Topic = "CH1" ;
+//$text = "Test";
+//getMqttfromlineMsg($Topic,$text);
 echo "OK3";
 ?>
