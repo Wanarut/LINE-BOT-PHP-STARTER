@@ -28,6 +28,7 @@ if (!is_null($events['events'])) {
 			// Build message to reply back
 
 			$Topic = "CH1" ;
+			$text = "ON";
 			getMqttfromlineMsg($Topic,$text);
 			   
 			
