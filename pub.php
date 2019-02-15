@@ -1,8 +1,8 @@
  <?php
  function pubMqtt($topic,$msg){
-       $APPID= "catbot/"; //enter your appid
-     $KEY = "Yc896h57dN68zcW"; //enter your key
-    $SECRET = "A4lkXo6leew6rbXDRag6sMEKH"; //enter your secret
+       $APPID= "CATBOTAPI/"; //enter your appid
+     $KEY = "nkUHHnm6BYgDqhD"; //enter your key
+    $SECRET = "aqvqChMKMuj90gy9e2iKu51sA"; //enter your secret
     $Topic = "$topic"; 
       put("https://api.netpie.io/microgear/".$APPID.$Topic."?retain&auth=".$KEY.":".$SECRET,$msg);
  
@@ -37,7 +37,7 @@
      
     curl_setopt($ch, CURLOPT_POSTFIELDS, $tmsg);
  
-    //curl_setopt($ch, CURLOPT_USERPWD, "mJ7K4MfteC7p0dW:pp4gzMhCvJIqlxc66hKEvk46m");
+    //curl_setopt($ch, CURLOPT_USERPWD, "nkUHHnm6BYgDqhD:aqvqChMKMuj90gy9e2iKu51sA");
      
     $response = curl_exec($ch);
     
