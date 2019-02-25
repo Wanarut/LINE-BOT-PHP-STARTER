@@ -30,7 +30,8 @@ if (!is_null($events['events'])) {
 			$Topic = "CH1" ;
 			if ($text == "on"){
 				$text = "1";
-			}else if($text == "off"){
+			}
+			if($text == "off"){
 				$text = "0";
 			}
 			getMqttfromlineMsg($Topic,$text);
